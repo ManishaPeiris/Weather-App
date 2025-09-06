@@ -113,3 +113,78 @@
     from { opacity: 0; transform: translateY(20px); }
     to { opacity: 1; transform: translateY(0); }
 }
+
+/* Tablet (up to 768px) */
+@media (max-width: 768px) {
+  .weather {
+    padding: 25px;
+    width: 90%;
+  }
+
+  .temperature {
+    font-size: 60px;
+  }
+
+  .location {
+    font-size: 28px;
+  }
+
+  .weather-icon {
+    width: 120px;
+  }
+
+  .weather-data .col {
+    font-size: 18px;
+  }
+
+  .weather-data .col span {
+    font-size: 14px;
+  }
+}
+
+/* Mobile (up to 480px) */
+@media (max-width: 480px) {
+  .weather {
+    padding: 20px;
+    width: 95%;
+  }
+
+  .search-bar input {
+    height: 40px;
+    font-size: 14px;
+    padding-left: 12px;
+  }
+
+  .search-bar img {
+    width: 40px;
+    padding: 8px;
+  }
+
+  .weather-icon {
+    width: 90px;
+    margin: 15px 0;
+  }
+
+  .temperature {
+    font-size: 40px;
+  }
+
+  .location {
+    font-size: 22px;
+  }
+
+  .weather-data .col {
+    font-size: 16px;
+    gap: 6px;
+  }
+
+  .weather-data .col img {
+    width: 18px;
+  }
+
+  .weather-data .col span {
+    font-size: 12px;
+  }
+}
+
+
